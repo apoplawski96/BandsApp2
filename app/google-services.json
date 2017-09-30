@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "819845386073",
+    "firebase_url": "https://bandsapp2.firebaseio.com",
+    "project_id": "bandsapp2",
+    "storage_bucket": "bandsapp2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819845386073:android:59ad5c81db00975e",
+        "android_client_info": {
+          "package_name": "com.example.artur.bandsapp2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819845386073-p8d1hjhfvqjh9vmg7u0qnmlhigbhjbum.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.artur.bandsapp2",
+            "certificate_hash": "8a59ef117a52cc40d00cb509851eab07ad2370f1"
+          }
+        },
+        {
+          "client_id": "819845386073-pf106p3sj5jfrpj56vsq6umt9vv35ver.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDTZCBbE1q8OJtkRsTH-Mf3100FA5gU2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819845386073-pf106p3sj5jfrpj56vsq6umt9vv35ver.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

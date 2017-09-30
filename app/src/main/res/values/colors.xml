@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#131313</color>
+    <color name="colorPrimaryDark">#101010</color>
+    <color name="colorPrimaryLight">#464545</color>
+    <color name="textColorDark">#878787</color>
+    <color name="textColorLight">#F0E8E8</color>
+    <color name="colorAccent">#0a1020</color>
+    <color name="iconsColor">#000000</color>
+    <color name="searchDialogResultColor">#000000</color>
+    <color name="searchDialogResultHighlightColor">#000000</color>
+</resources>

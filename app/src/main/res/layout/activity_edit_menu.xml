@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.artur.bandsapp2.EditMenuActivity"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+
+        <TextView
+            android:id="@+id/editProfileTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorLight"
+            android:text="Choose what part you want to edit"
+            style="@style/textView_style"/>
+
+
+        <Button
+            android:id="@+id/basicInfoEdit"
+            style="@style/button_style"
+            android:textColor="@color/textColorLight"
+            android:text="BASIC INFO" />
+        <Button
+            android:id="@+id/instrumentsEdit"
+            style="@style/button_style"
+            android:textColor="@color/textColorLight"
+            android:text="INSTRUMENTS" />
+        <Button
+            android:id="@+id/skillsEdit"
+            style="@style/button_style"
+            android:textColor="@color/textColorLight"
+            android:text="SKILLS" />
+        <Button
+            android:id="@+id/genresEdit"
+            style="@style/button_style"
+            android:textColor="@color/textColorLight"
+            android:text="GENRES" />
+        <Button
+            android:id="@+id/favouriteBandsEdit"
+            style="@style/button_style"
+            android:textColor="@color/textColorLight"
+            android:text="BANDS" />
+        <Button
+            android:id="@+id/favouriteAlbumsEdit"
+            style="@style/button_style"
+            android:textColor="@color/textColorLight"
+            android:text="ALBUMS" />
+
+        <TextView
+            android:id="@+id/editProfileReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorDark"
+            android:text="Return"
+            android:clickable="true"
+            android:onClick="onClick"
+            style="@style/textView_style"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>

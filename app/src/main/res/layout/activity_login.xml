@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    tools:context="com.example.artur.bandsapp2.LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/photo3"
+            app:civ_border_width="1dp"
+            app:civ_border_color="@color/textColorDark"
+            android:layout_weight="1"
+            android:layout_margin="0dp"
+
+            android:id="@+id/roundedPhoto"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textColorLight"
+            android:text="@string/app_name"
+            style="@style/textView_style"/>
+
+        <EditText
+            android:id="@+id/emailLogin"
+            android:inputType="textEmailAddress"
+            style="@style/editText_style"
+            android:hint="Your email"
+            android:textColor="#191919"
+            android:textColorHint="#AAAAAA"/>
+
+        <EditText
+            android:id="@+id/passwordLogin"
+            android:inputType="textPassword"
+            style="@style/editText_style"
+            android:hint="Password"
+            android:textColor="#191919"
+            android:textColorHint="#AAAAAA"/>
+
+        <Button
+            android:id="@+id/signUpButton"
+            style="@style/button_style"
+            android:textColor="@color/textColorLight"
+            android:text="SIGN UP" />
+
+        <TextView
+            android:id="@+id/createAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create an account!"
+            android:textColor="@color/textColorDark"
+            style="@style/textView_style"
+            android:onClick="onClick"
+            android:clickable="true"/>
+
+    </LinearLayout>
+</RelativeLayout>
